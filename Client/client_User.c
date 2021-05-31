@@ -33,7 +33,6 @@ int main(int argc, char* argv[])
 	//서버에 메세지 전송
 	sendto(hSocket, message, sizeof(message), 0, (SOCKADDR*)&servAddr, sizeof(servAddr));
 	
-	//서버에서 연결 및 데이터 수신시 상대 peer에 대한 정보(clntAddr)를 받아야함
 
 
 	//서버와의 소켓 연결 확인. 최종 완성시에 제거해도 무방

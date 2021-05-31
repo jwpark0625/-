@@ -4,8 +4,7 @@
 #include <winsock2.h>
 
 //아래 정의는 편의를 위해 지정함. 삭제해도 무방합니다.
-#define SERVER_IP "127.0.0.1"	//루프백 서버 주소 - 나중에 아래 코드랑 교체
-//#define SERVER_IP "192.168.0.2"	//다중 사용 시험을 위한 실제 서버 주소
+#define SERVER_IP "127.0.0.1"	//루프백 서버 주소 - 나중에 교체
 #define PORTNUM		8088		//포트번호 정의
 
 void ErrorHandling(char* message);
